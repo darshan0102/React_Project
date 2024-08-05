@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import logo from "../assets/asset.png";
+import logo from "../assets/asset-0.png";
 import {
   MDBNavbar,
   MDBContainer,
@@ -20,9 +20,9 @@ export default function App() {
     <>
       <MDBNavbar>
           <MDBNavbarNav>
-          <div className="bg-black w-full py-2 text-sm font-semibold">
+          <div className="bg-black w-full mt-[-0.5%] py-2 text-sm font-semibold">
         <nav className="flex justify-between">
-        <ul className="flex items-center space-x-6 ml-16">
+        <ul className=" flex items-center space-x-6 ml-16">
           <li><a href="" className="text-gray-50 hover:text-[#0068C8] transition duration-250">English</a></li>
           <li><a href="" className="text-gray-50 hover:text-[#0068C8] transition duration-250">USD</a></li>
           <li><a href="" className="text-white">Free Shipping On All Orders Over $100</a></li>
@@ -153,4 +153,3 @@ export default function App() {
     </>
   );
 }
- 
