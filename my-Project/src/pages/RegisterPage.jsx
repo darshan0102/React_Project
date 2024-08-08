@@ -1,7 +1,6 @@
 import React from 'react'
 import { VscEye } from "react-icons/vsc";
 
-
 const RegisterPage = () => {
     return (
         <div className="min-h-screen flex items-center justify-center">
