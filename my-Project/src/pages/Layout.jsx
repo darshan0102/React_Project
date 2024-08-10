@@ -5,6 +5,10 @@ import RegisterPage from './RegisterPage'
 import OT from './OT'
 import BlogPage from './BlogPage'
 import Wishlist from './Wishlist'
+import ShopList from './ShopList'
+import Cart from './Cart' 
+import ContactUS from './ContactUS'
+
 
 const Layout = () => {
   return (
@@ -14,7 +18,10 @@ const Layout = () => {
        {/* <RegisterPage/>  */}
         {/* <OT/>   */}
         {/* <BlogPage/> */}
-        <Wishlist/>
+        {/* <Wishlist/> */}
+        {/* <Cart/> */}
+        <ShopList/>
+       {/* <ContactUS/> */}
     </div>
   )
   
