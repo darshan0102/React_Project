@@ -62,6 +62,7 @@ const Home = () => {
   ];
 
   return (
+    <div className="">
     <div className="mt-10 mx-2">
       <div>
         <div className="flex flex-col sm:flex-row justify-center items-center gap-7">
@@ -975,6 +976,7 @@ const Home = () => {
           </div>
         </div>
       </div>
+    </div>
     </div>
     
   );
