@@ -13,14 +13,14 @@ import ContactUS from './ContactUS'
 const Layout = () => {
   return (
     <div>
-        {/* <Home/> */}
+        <Home/>
          {/* <Error/> */}
        {/* <RegisterPage/>  */}
         {/* <OT/>   */}
         {/* <BlogPage/> */}
         {/* <Wishlist/> */}
         {/* <Cart/> */}
-        <ShopList/>
+        {/* <ShopList/> */}
        {/* <ContactUS/> */}
     </div>
   )

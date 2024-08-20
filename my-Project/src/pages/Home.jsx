@@ -233,16 +233,16 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <div className="p-32 mt-[-150px]">
+      <div className="p-20 mt-[-150px]">
         <div>
           <h2 className="text-black font-semibold">Daily Best Sells</h2>
           <hr />
         </div>
         <div className="">
-          <div className="grid grid-cols-3 gap-3">
+          <div className="grid grid-cols-3 gap-10">
             {/* left Side Card */}
             <div className="flex self-center">
-              <div className="grid grid-cols-2 gap-4">
+              <div className="grid grid-cols-2 gap-20">
                 <div className="">
                   <div className="hover:border-1 w-[200px] h-[210px] hover:border-[#0068C8] transition duration-300 rounded-lg flex justify-center items-center">
                     <a href="" className="relative">
@@ -341,12 +341,12 @@ const Home = () => {
 
             {/* middle Banner */}
             <div className="">
-              <img src={banner} alt="Banner" className="w-full h-auto" />
+              <img src={banner} alt="Banner" className="w-96 rounded-md" />
             </div>
 
             {/* Right Side Card */}
             <div className="flex self-center">
-              <div className="grid grid-cols-2 gap-4">
+              <div className="grid grid-cols-2 gap-20">
                 <div className="">
                   <div className="hover:border-1 w-[200px] h-[210px] hover:border-[#0068C8] transition duration-300 rounded-lg flex justify-center items-center">
                     <a href="" className="relative">
@@ -813,11 +813,11 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <div className="mt-24">
+      <div className="mt-24 px-16 ">
         <div>
-          <h3 className="text-black font-semibold ml-8">Recently Viewed Products</h3>
+          <h3 className="text-black font-semibold px-10">Recently Viewed Products</h3>
           <hr />
-          <div className="flex">
+          <div className="flex gap-12">
             <div className="w-[300px]">
               <div className="hover:border-1 w-[250px] h-[290px] hover:border-[#0068C8] transition duration-300 rounded-lg flex justify-center items-center">
                 <a href="" className="relative">
@@ -936,14 +936,14 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <div className="mt-24 mx-56">
+      <div className="mt-24 mx-5">
         <div className="relative">
           <img src={watch} alt="" className="rounded-lg" />
           <p className="absolute top-[40%] right-[30%] font-semibold flex justify-center items-center text-2xl text-white">Free Shipping On Order Over $500 - Using code: Freeship</p>
           <p className="absolute border-2 top-3 left-5 w-[93%] h-24 border-dashed border-white rounded-lg"></p>
         </div>
       </div>
-      <div className="mt-24 mx-56">
+      <div className="py-5 mx-5">
         <div className="flex gap-20">
           <div className="flex items-start">
             <i className="text-8xl text-[#0068C8] mt-3"><TbTruckDelivery /></i>

@@ -1,22 +1,21 @@
-import React from "react";
+import React from 'react'
 
-const Wishlist = () => {
+import WhishListCard from '../components/WhishListCard'
+
+const WhishList = () => {
   return (
-    <div>
-      <h1 className="text-black ml-5 mt-7">My Wishlist</h1>
-      <div className="mx-5 grid grid-cols-2">
-        <p className=" text-black mt-3">Product name</p>
-        <div className="mx-5 flex w-full">
-          <p className=" text-black mt-3 w-1/4">Unit Price</p>
-          <div>
-          <p className=" text-black mt-3">Stock status</p>
-          <hr/>
-          </div>
-        </div>
-        <p>No products added to the wishlist</p>
+    <div className='p-4 mx-52 '>
+      <h1 className='text-2xl font-semibold text-[#000] mb-4'>My Whislist</h1>
+      <div className='grid grid-cols-12 gap-4 border-b border-gray-200 py-2'>
+        <div className='col-span-6 text-left font-semibold text-[#000] mb-4'>Product name</div>
+        <div className='col-span-2 text-left font-semibold text-[#000] mb-4'>Unit price</div>
+        <div className='col-span-2 text-left font-semibold text-[#000] mb-4'>Stock status</div>
+      </div>
+      <div>
+        <WhishListCard/>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default Wishlist;
+export default WhishList

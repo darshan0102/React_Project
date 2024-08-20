@@ -1,6 +1,6 @@
 import React from 'react';
 
-import s23 from '../assets/S23-400x400.jpg'
+import s23 from '../assets/s23.jpg';
 
 import { FaFacebook } from "react-icons/fa";
 import { AiFillTwitterCircle } from "react-icons/ai";
