@@ -11,11 +11,10 @@ import ContactUS from './ContactUS'
 import AboutUs from './AboutUs'
 import ProductGridCart from './ProductGridCart'
 
-
-
 const Layout = () => {
   return (
     <div>
+        
         {/* <Home/> */}
          {/* <Error/> */}
        {/* <RegisterPage/>  */}

@@ -10,7 +10,7 @@ const App = () => {
     <div className="m-5 w-full">
       <div className="text-3xl font-bold mb-5">Shop</div>
 
-      <div className="flex mx-40 mb-5">
+      <div className="flex mx-20 mb-5">
         <MultiCardCarousel />
       </div>
 

@@ -53,7 +53,7 @@ const Footer = () => {
             <h3 className="text-lg font-bold mb-2 ">Sign Up For Newsletter & Get 20% Off</h3>
             <div className="flex w-full">
               <input
-                type="text"
+                type="text" 
                 className="w-full rounded-l-lg py-2.5 bg-gray-100 text-gray-700"
                 placeholder="Your email address"
               />
@@ -104,7 +104,7 @@ const Footer = () => {
         <p className="text-center text-sm text-[#848484] mt-6">&copy; Ecomall. All rights reserved.</p>
       </footer>
     </div>
-  );
+  ); 
 }
 
 export default Footer;
