@@ -12,7 +12,7 @@ const Error = () => {
         Please go back to the homepage or check out our offers
       </p>
       <a href="https://www.google.com">
-        <button className="bg-[#0068C8] text-gray-50 mt-4 uppercase py-2 w-40 sm:w-48 md:w-52 rounded hover:bg-white hover:border font-semibold hover:border-[#0068C8] hover:text-[#0068C8] transition duration-300">
+        <button className="bg-[#0068C8] text-gray-50 mt-4 uppercase py-2 w-40 sm:w-48 md:w-52 rounded hover:bg-white hover:border font-semibold hover:border-[#0068C8] hover:text-[#0068C8] transition duration-300 mb-5">
           Back to homepage
         </button>
       </a>

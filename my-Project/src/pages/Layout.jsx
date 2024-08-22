@@ -16,7 +16,7 @@ const Layout = () => {
     <div>
         
         {/* <Home/> */}
-         {/* <Error/> */}
+         <Error/>
        {/* <RegisterPage/>  */}
         {/* <OT/>   */}
         {/* <BlogPage/> */}
@@ -24,7 +24,7 @@ const Layout = () => {
         {/* <Cart/> */}
         {/* <ShopList/> */}
        {/* <ContactUS/> */}
-       <AboutUs/>
+       {/* <AboutUs/> */}
        {/* <ProductGridCart/> */}
     </div>
   )
