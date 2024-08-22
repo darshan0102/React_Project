@@ -8,12 +8,15 @@ import Wishlist from './Wishlist'
 import ShopList from './ShopList'
 import Cart from './Cart' 
 import ContactUS from './ContactUS'
+import AboutUs from './AboutUs'
+import ProductGridCart from './ProductGridCart'
+
 
 
 const Layout = () => {
   return (
     <div>
-        <Home/>
+        {/* <Home/> */}
          {/* <Error/> */}
        {/* <RegisterPage/>  */}
         {/* <OT/>   */}
@@ -22,6 +25,8 @@ const Layout = () => {
         {/* <Cart/> */}
         {/* <ShopList/> */}
        {/* <ContactUS/> */}
+       <AboutUs/>
+       {/* <ProductGridCart/> */}
     </div>
   )
   
