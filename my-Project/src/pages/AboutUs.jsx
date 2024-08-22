@@ -36,11 +36,6 @@ const About = () => {
       position: "Marketing",
       // imgSrc: dhaval/
     },
-    {
-      name: "Nayan Katariya",
-      position: "full management",
-      // imgSrc: nayan,
-    },
   ];
 
   return (
@@ -119,7 +114,7 @@ const About = () => {
           Our Team
         </p>
         <hr className="" />
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-6 mt-7">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mt-7">
           {teamMembers.map((member, index) => (
             <div key={index}>
               <div className="overflow-hidden w-80 rounded-xl">
