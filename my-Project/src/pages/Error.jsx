@@ -1,14 +1,16 @@
-import React from 'react'
+import React from "react";
 
 const Error = () => {
   return (
-    <div className="flex flex-col justify-center items-center mt-24 px-4 sm:px-6 md:px-8">
-      <h1 className="text-black w-full text-center text-[80px] sm:text-[100px] md:text-[120px] lg:text-[160px] font-extrabold">404</h1>
-      <div className="font-semibold text-black text-xl sm:text-2xl md:text-3xl mt-4 text-center">
+    <div className="flex flex-col justify-center items-center min-h-screen p-4 sm:p-6 md:p-8 bg-gray-100">
+      <h1 className="text-black text-center text-[60px] sm:text-[80px] md:text-[100px] lg:text-[120px] font-extrabold">
+        404
+      </h1>
+      <div className="font-semibold text-black text-lg sm:text-xl md:text-2xl lg:text-3xl mt-4 text-center">
         The page you're looking for doesn't exist or <br />
         probably moved somewhere
       </div>
-      <p className="mt-4 text-[#808080] text-sm sm:text-base">
+      <p className="mt-4 text-gray-600 text-sm sm:text-base md:text-lg text-center">
         Please go back to the homepage or check out our offers
       </p>
       <a href="https://www.google.com">
@@ -17,7 +19,7 @@ const Error = () => {
         </button>
       </a>
     </div>
-  )
-}
+  );
+};
 
-export default Error
+export default Error;

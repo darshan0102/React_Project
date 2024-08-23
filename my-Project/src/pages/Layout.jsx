@@ -16,8 +16,8 @@ const Layout = () => {
     <div>
         
         {/* <Home/> */}
-         <Error/>
-       {/* <RegisterPage/>  */}
+         {/* <Error/> */}
+       <RegisterPage/> 
         {/* <OT/>   */}
         {/* <BlogPage/> */}
         {/* <Wishlist/> */}
