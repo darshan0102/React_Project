@@ -17,9 +17,9 @@ const Layout = () => {
         
         {/* <Home/> */}
          {/* <Error/> */}
-       <RegisterPage/> 
+       {/* <RegisterPage/>  */}
         {/* <OT/>   */}
-        {/* <BlogPage/> */}
+        <BlogPage/>
         {/* <Wishlist/> */}
         {/* <Cart/> */}
         {/* <ShopList/> */}

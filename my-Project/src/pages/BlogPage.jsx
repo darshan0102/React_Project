@@ -77,6 +77,7 @@ const BlogPage = () => {
           </p>
       </div>
     </div>
+    
   );
 };
 
