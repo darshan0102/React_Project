@@ -15,11 +15,11 @@ const Layout = () => {
   return (
     <div>
         
-        <Home/>
+        {/* <Home/> */}
          {/* <Error/> */}
        {/* <RegisterPage/>  */}
         {/* <OT/>   */}
-        {/* <BlogPage/> */}
+        <BlogPage/>
         {/* <Wishlist/> */}
         {/* <Cart/> */}
         {/* <ShopList/> */}
