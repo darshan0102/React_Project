@@ -3,7 +3,7 @@ import React from "react";
 import blog from "../assets/blog.jpg";
 import blog2 from "../assets/blog2.jpg";
 import blog3 from "../assets/blog3.jpg";
-import blog4 from "../assets/blog4.jpg";
+import blog4 from "../assets/blog4.jpg";        
 import minBlog1 from '../assets/blog-1-150x150.jpg'
 import minBlog2 from '../assets/blog-11-150x150.jpg'
 import minBlog3 from '../assets/blog-3-150x150.jpg'
@@ -14,7 +14,7 @@ import { GoSearch } from "react-icons/go";
 const BlogPage = () => {
     return (
         <div className="mt-20">
-            <h3 className=" text-[#000] mx-4 lg:mx-56 font-semibold mb-4">Blog</h3>
+            <h3 className=" text-[#000] mx-4 font-semibold mb-4">Blog</h3>
             <div className="flex flex-col lg:flex-row mt-10 w-full">
                 <div className="w-full h-full lg:w-2/4 lg:ml-24 px-2 lg:px-0">
                     <div className="space-y-16">

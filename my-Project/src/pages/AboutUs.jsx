@@ -5,7 +5,7 @@ import about2 from "../assets/about-2.jpg";
 import vijay from "../assets/vijay.jpg";
 import darshan2 from "../assets/darshan2.jpg";
 import dhaval from "../assets/dhaval.jpg";
-// import nayan from "../assets/nayan.jpg";
+import vrishbh from "../assets/vrishbh.jpg";
 import avatar from "../assets/avatar-1-180x180.jpg";
 
 
@@ -34,7 +34,7 @@ const About = () => {
     {
       name: "Vrishabh Jogani",
       position: "Marketing",
-      // imgSrc: dhaval/
+      imgSrc: vrishbh,
     },
   ];
 

@@ -19,12 +19,12 @@ const Layout = () => {
          {/* <Error/> */}
        {/* <RegisterPage/>  */}
         {/* <OT/>   */}
-        <BlogPage/>
+        {/* <BlogPage/> */}
         {/* <Wishlist/> */}
         {/* <Cart/> */}
         {/* <ShopList/> */}
        {/* <ContactUS/> */}
-       {/* <AboutUs/> */}
+       <AboutUs/>
        {/* <ProductGridCart/> */}
     </div>
   )
